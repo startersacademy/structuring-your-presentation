@@ -29,11 +29,7 @@
     "url": "https://github.com/startersacademy/structuring-your-presentation/issues"
   },
   "homepage": "https://github.com/startersacademy/structuring-your-presentation#readme",
-  "devDependencies": {
-    "prez": "^4.3.0"
-  },
   "dependencies": {
-    "prez": "^4.4.0",
-    "reveal-code-focus": "^0.1.0"
+    "prez": "^4.4.0"
   }
 }
