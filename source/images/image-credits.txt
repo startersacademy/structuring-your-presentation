@@ -1,0 +1,16 @@
+man-bored: http://www.independent.co.uk/incoming/article8348318.ece/binary/original/pg44-boredom-getty.jpg
+
+stuff-on-board: http://algosharp.net/Content/themes/CurrentTemplateLayout/images/algorithmHeader.png
+
+subway-map: http://web.mta.info/maps/submap.html
+
+success: http://heathbrothers.com/download/mts-made-to-stick-model.pdf
+
+Twitter_logo: http://vignette1.wikia.nocookie.net/dusktilldawn/images/1/1a/Twitter_logo.png/revision/latest?cb=20140507210836
+
+Starters Academy
+----------------
+directions-on-mobile
+tweet
+tsa-logo
+worksheet
