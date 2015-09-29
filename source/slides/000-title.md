@@ -9,3 +9,11 @@ $background:/images/Twitter_logo.png$
   <h4 style="color: white; margin-top: 50px">
     Todd Bashor
   </h4>
+  
+  <h4 style="
+    font-size: .5em;
+    color: white;">
+    @startersacademy
+  </h4>
+
+

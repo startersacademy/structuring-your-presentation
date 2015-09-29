@@ -13,3 +13,6 @@
 ...
 ```
 
+Note:
+
+Back to our algorithm, we take the steps in the shortest path and feed them into our magical describeSolution function.

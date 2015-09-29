@@ -1,10 +1,9 @@
 $class:white-background$
 
-<!-- shot of BBP like worksheet -->
 <h1 class="left" style="
   height: 90px;
   margin-bottom: 20px;
-  margin-top: 80px;
+  margin-top: 60px;
   padding-left: 200px;">
   Do
 </h1>
@@ -21,4 +20,10 @@ $class:white-background$
   First
 </h1>
 
-### Shot of BBP worksheet
+Note:
+
+Figure out how to illustrate the solution. 
+
+The rest of the presentation is about showing how to go from point A to point B through the illustration.
+
+It is the illustration that the audience should be able to attach to their tweet.

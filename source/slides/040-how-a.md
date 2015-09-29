@@ -1,9 +1,9 @@
 $class:white-background$
-<!-- shot of BBP like worksheet -->
+
 <h1 class="left" style="
   height: 90px;
   margin-bottom: 20px;
-  margin-top: 80px;
+  margin-top: 60px;
   padding-left: 200px;">
   Do
 </h1>
@@ -19,4 +19,9 @@ $class:white-background$
 <h1 class="left no-margin" style="padding-left: 300px;">
   First
 </h1>
-## shot of BBP worksheet
+
+Note:
+
+If, when you structure your presentation, you do the last thing first, they can.
+
+In the next few minutes, I'll talk about how you can structure an impactful and memorable presentation.
