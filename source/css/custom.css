@@ -1,0 +1,89 @@
+/* custom styles can go here */
+
+.slide.fit-background.slide-background {
+  background-size: contain;
+  background-color: black;
+}
+
+.slide.blue-background.slide-background {
+  background-size: contain;
+  background-color: #0087FF;
+}
+
+.slide.white-background.slide-background {
+  background-size: contain;
+  background-color: white;
+}
+
+.reveal {
+  font-family: Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  color: #fff; }
+
+
+.reveal pre {
+  width: 100%;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  margin: 0 0 20px 0;
+  color: #0087FF;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: inherit;
+  text-shadow: 1px 1px 2px black;
+  word-wrap: break-word; }
+
+section.has-light-background h1,
+section.has-light-background h2,
+section.has-light-background h3,
+section.has-light-background h4,
+section.has-light-background h5,
+section.has-light-background h6 {
+  margin: 0 0 20px 0;
+  color: #0087FF;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: inherit;
+  text-shadow: 1px 1px 2px black;
+  word-wrap: break-word;
+}
+
+h1.left , h2.left , h3.left, h4.left , h5.left , h6.left {
+  text-align: left
+}
+
+h1.right , h2.right , h3.right, h4.right , h5.right , h6.right {
+  text-align: right
+}
+
+h1.no-margin, h2.no-margin, h3.no-margin, h4.no-margin, h5.no-margin, h6.no-margin {
+  margin: 0;
+}
+
+h1.gray , h2.gray , h3.gray, h4.gray , h5.gray , h6.gray {
+  color: gray;
+}
+
+
+
+section.has-light-background h1.gray,
+section.has-light-background h2.gray,
+section.has-light-background h3.gray,
+section.has-light-background h4.gray ,
+section.has-light-background h5.gray ,
+section.has-light-background h6.gray {
+  color: gray;
+}
+
+h1.white , h2.white , h3.white, h4.white , h5.white , h6.white, span.white  {
+  color: white;
+}

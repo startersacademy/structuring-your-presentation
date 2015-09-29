@@ -1,0 +1,39 @@
+{
+  "name": "structuring-your-presentation",
+  "version": "1.0.0",
+  "description": "Presentation for San Diego JS speaker workshop about how to structure the content for a talk and make it more interesting.",
+  "config": {
+    "source_dir": "./source",
+    "build_dir": "./build",
+    "pdf_path": "./build/slides.pdf"
+  },
+  "scripts": {
+    "init": "prez $npm_package_config_source_dir $npm_package_config_build_dir --init",
+    "present": "prez $npm_package_config_source_dir $npm_package_config_build_dir --serve",
+    "dev": "prez $npm_package_config_source_dir $npm_package_config_build_dir --serve --watch $npm_package_config_pdf_path",
+    "watch": "prez $npm_package_config_source_dir $npm_package_config_build_dir --watch",
+    "print": "prez $npm_package_config_source_dir $npm_package_config_build_dir --print $npm_package_config_pdf_path"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startersacademy/structuring-your-presentation.git"
+  },
+  "keywords": [
+    "presentation",
+    "meetup"
+  ],
+  "author": "Todd Bashor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/startersacademy/structuring-your-presentation/issues"
+  },
+  "homepage": "https://github.com/startersacademy/structuring-your-presentation#readme",
+  "devDependencies": {
+    "prez": "^4.3.0"
+  },
+  "dependencies": {
+    "prez": "^4.4.0",
+    "reveal-code-focus": "^0.1.0"
+  }
+}
