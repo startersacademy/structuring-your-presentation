@@ -14,7 +14,8 @@ Presentation for San Diego JS speaker workshop about how to structure the conten
 
 ## Develop the Presentation
 
-* Edit the slides from `slides` folder (html or [markdown](https://www.npmjs.com/package/marked))
+* Edit the slides from `slides` folder (html or [markdown](https://www.npmjs.com/package/marked) or mixed)
+* Check out the slide examples for more usage info
 * If you need some assets, you can work in `images`, `css`, `js`, `media` folders and use `includes.txt`
 * The slideshow is automatically built into `build` folder
 * The slideshow is hosted and the browser is opened to localhost:9000
@@ -74,9 +75,9 @@ You can set per-slide properties like general style, [background](https://github
 
 ## Command Usage
 
-* The `serve` script will open a browser window with the presentation and keep it and a pdf version of the presentation updated as you make changes:
+* The `dev` script will open a browser window with the presentation and keep it updated as you make changes:
 
-  `npm run serve`
+  `npm run dev`
 
 * If you just want the build to stay current, use:
 
@@ -88,7 +89,7 @@ You can set per-slide properties like general style, [background](https://github
 
 ### Adjust Options
 
-Under the covers, [prez](https://github.com/lmtm/prez) is used to build and serve the presentation. It offers several options to modify the presentation output. To use any of these options, add the option after `npm run command -- `. For example, to create more remove for speaker notes, use this:
+Under the covers, [prez](https://github.com/lmtm/prez) is used to build and serve the presentation. It offers several options to modify the presentation output. To use any of these options, add the option after `npm run command -- `. For example, to create more room for speaker notes, use this:
 
   `npm run present -- --such-notes`
 
@@ -117,8 +118,8 @@ Alternatively, you can set the options in the .prezrc file.
 
 #### Theme
 
-* `--theme=<theme>`: choose [reveal theme](https://github.com/hakimel/reveal.js/tree/master/css/theme) (default = `solarized`)
-* `--highlight-theme=<theme>`: choose [highlight.js theme](https://github.com/isagalaev/highlight.js/tree/master/src/styles) (default = `zenburn`)
+* `--theme=<theme>`: choose [reveal theme](https://github.com/hakimel/reveal.js/tree/master/css/theme) (default = `black`)
+* `--highlight-theme=<theme>`: choose [highlight.js theme](https://github.com/isagalaev/highlight.js/tree/master/src/styles) (default = `monokai`)
 * `--no-dynamic-theme`: disable ability to change theme from query string
 * `--print-notes`: enable special print layout with first-class notes
 * `--such-notes`: focus on notes, which will enable a special print layout with notes as first-class content, and more space for them in the notes popup
@@ -143,11 +144,11 @@ Alternatively, you can set the options in the .prezrc file.
 
 ## Initialize a Presentation
 
+!!Caution!!
+
 To generate a default presentation (and potentially blow away any work you have already done):
 
 1. In package.json, modify the config object if necessary. By default source files will be in `./source`, built files will go in `./build`. If files exist in these directories, they will be overwritten.
 2. From the command line:
 
   `npm run init`
-
-
